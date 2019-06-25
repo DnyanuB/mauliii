@@ -11,6 +11,7 @@ var customerController=function (req, res) {
             {firstName:'Rohit',lastName:'Puranik',age:28},
             {firstName:'Shiv',lastName:'Kumar',age:25},
             {firstName:'Manoj',lastName:'Pande',age:23}
+			{firstName:'Manoj',lastName:'Pande',age:23}
       ];
   res.send(customers);
 };
